@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title>
+        <style>
+            .wrapper{
+                border: 2px solid black;
+                padding: 10px;
+            }
+            [type="text"]{
+                width: 80%;
+            }
+            [value="Add"]{
+                width: 15%;
+            }
+            table{
+                width: 100%;
+                border: 1px solid black;
+                padding: 5px;
+                margin: 5px 0;
+            }
+            td{
+                text-align: center;
+            }
+            span{
+                padding: 2px 5px;
+                background-color: black;
+                color: #FFF;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <input type="text" name="row" id="txt">
+            <input type="button" value="Add" id="add">
+            <table id="table">
+                <tr>
+                    <th>No.</th>
+                    <th>News</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>News num 1</td>
+                </tr>
+            </table>
+            <input type="button" value="count rows" id="count">
+            <span>1</span>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
